@@ -71,7 +71,7 @@ int main (){
     break;
 
     case 5:
-    << consultar();
+    consultar();
     break;
 
     case 6:
