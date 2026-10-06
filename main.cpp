@@ -36,7 +36,23 @@ int menu_principal(){
     return seleccion;
 }
 
-int registrar(){}
+int registrar(){
+
+    struct Estudiante {
+    string carne;
+    string nombre;
+    string carrera;
+    double nota1;
+    double nota2;
+    double nota3;
+    double nota4;
+    double nota5;
+    double promedio;
+    bool aprobado;
+}
+
+
+}
 int modificar(){}
 int eliminar(){}
 int guardar_informacion(){}
